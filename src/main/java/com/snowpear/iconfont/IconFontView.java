@@ -48,9 +48,14 @@ public class IconFontView extends View {
     }
 
 
+    private boolean isInited = false;
     private TextPaint mTextPaint;
     private String mIconfontText;
     private void init(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes){
+        if(isInited){
+            return;
+        }
+        isInited = true;
         mIconfontText = "";
         mTextPaint = new TextPaint(Paint.ANTI_ALIAS_FLAG);
         mTextPaint.density = getResources().getDisplayMetrics().density;

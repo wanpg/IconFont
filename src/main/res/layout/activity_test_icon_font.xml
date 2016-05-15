@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:iconfont_attr="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.snowpear.test.TestIconFontActivity">
+
+    <com.snowpear.iconfont.IconFontView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        iconfont_attr:font="&#xe64c;"
+        iconfont_attr:fontAsset="iconfont/iconfont.ttf"
+        iconfont_attr:fontColor="@android:color/black" />
+
+
+    <com.snowpear.iconfont.IconFontView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        iconfont_attr:font="&#xe650;"
+        iconfont_attr:fontAsset="iconfont/iconfont.ttf"
+        iconfont_attr:fontColor="@android:color/black" />
+
+
+    <com.snowpear.iconfont.IconFontView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        iconfont_attr:font="&#xe64e;"
+        iconfont_attr:fontAsset="iconfont/iconfont.ttf"
+        iconfont_attr:fontColor="@android:color/black" />
+
+
+    <com.snowpear.iconfont.IconFontView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        iconfont_attr:font="&#xe652;"
+        iconfont_attr:fontAsset="iconfont/iconfont.ttf"
+        iconfont_attr:fontColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/service_o_vector"/>
+</LinearLayout>
